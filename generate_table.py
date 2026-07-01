@@ -17,7 +17,8 @@ FOLDER_MAP = [
     },
 ]
 
-NUMBERED_FILE_RE = re.compile(r"^(?P<number>\d+)\.(?P<name>.+)\.py$", re.IGNORECASE)
+# Regex looking for standard LeetCode numbering format ending with .sql
+NUMBERED_FILE_RE = re.compile(r"^(?P<number>\d+)\.(?P<name>.+)\.sql$", re.IGNORECASE)
 
 
 def escape_table_text(value: str) -> str:
@@ -41,7 +42,10 @@ def display_name(file_path: Path, numbered: bool) -> tuple[int, str]:
 def collect_files(folder: Path, numbered: bool) -> list[Path]:
     if not folder.exists():
         return []
-    files = [path for path in folder.iterdir() if path.is_file() and path.suffix.lower() == ".py"]
+    
+    # Collect all .sql files instead of .py
+    files = [path for path in folder.iterdir() if path.is_file() and path.suffix.lower() == ".sql"]
+    
     if numbered:
         files = [path for path in files if NUMBERED_FILE_RE.match(path.name)]
         files.sort(key=lambda path: display_name(path, True))
@@ -74,8 +78,8 @@ def render_section(config: dict[str, object]) -> str:
     files = collect_files(folder, numbered)
     table = render_table(files, numbered)
     summary = f"<summary>{escape_table_text(title)} ({len(files)})</summary>"
-    marker_start = f"<!-- {key.upper()}_TABLE_START -->"
-    marker_end = f"<!-- {key.upper()}_TABLE_END -->"
+    marker_start = f""
+    marker_end = f""
     return "\n".join(
         [
             marker_start,
@@ -88,8 +92,8 @@ def render_section(config: dict[str, object]) -> str:
 
 
 def replace_section(readme: str, key: str, section: str) -> str:
-    start_marker = f"<!-- {key.upper()}_TABLE_START -->"
-    end_marker = f"<!-- {key.upper()}_TABLE_END -->"
+    start_marker = f""
+    end_marker = f""
     pattern = re.compile(
         rf"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
         re.DOTALL,
