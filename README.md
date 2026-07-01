@@ -1,3 +1,9 @@
+
+<summary>LeetCode SQL Practice (1)</summary>
+
+| # | Problem | Link |
+|---|---------|------|
+| 1 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
 # 📊 LeetCode SQL 50: Advanced Relational Analytics & Engine Optimization
 [![LeetCode SQL 50](https://img.shields.io/badge/Study%20Plan-SQL%2050-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/study-plan/v2/top-sql-50)
 [![Automation](https://img.shields.io/badge/README-Automated-007ACC?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
