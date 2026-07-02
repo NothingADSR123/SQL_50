@@ -20,6 +20,19 @@ FOLDER_MAP = [
 # Regex looking for standard LeetCode numbering format ending with .sql
 NUMBERED_FILE_RE = re.compile(r"^(?P<number>\d+)\.(?P<name>.+)\.sql$", re.IGNORECASE)
 
+# Single source of truth for the anchor comments, so render_section and
+# replace_section can never drift out of sync with each other.
+MARKER_START_TEMPLATE = "<!-- {key}:START -->"
+MARKER_END_TEMPLATE = "<!-- {key}:END -->"
+
+
+def marker_start_for(key: str) -> str:
+    return MARKER_START_TEMPLATE.format(key=key)
+
+
+def marker_end_for(key: str) -> str:
+    return MARKER_END_TEMPLATE.format(key=key)
+
 
 def escape_table_text(value: str) -> str:
     return value.replace("|", r"\|")
@@ -42,10 +55,10 @@ def display_name(file_path: Path, numbered: bool) -> tuple[int, str]:
 def collect_files(folder: Path, numbered: bool) -> list[Path]:
     if not folder.exists():
         return []
-    
+
     # Collect all .sql files instead of .py
     files = [path for path in folder.iterdir() if path.is_file() and path.suffix.lower() == ".sql"]
-    
+
     if numbered:
         files = [path for path in files if NUMBERED_FILE_RE.match(path.name)]
         files.sort(key=lambda path: display_name(path, True))
@@ -78,29 +91,34 @@ def render_section(config: dict[str, object]) -> str:
     files = collect_files(folder, numbered)
     table = render_table(files, numbered)
     summary = f"<summary>{escape_table_text(title)} ({len(files)})</summary>"
-    marker_start = f""
-    marker_end = f""
+    marker_start = marker_start_for(key)
+    marker_end = marker_end_for(key)
     return "\n".join(
         [
             marker_start,
+            "<details open>",
             summary,
             "",
             table,
+            "</details>",
             marker_end,
         ]
     )
 
 
 def replace_section(readme: str, key: str, section: str) -> str:
-    start_marker = f""
-    end_marker = f""
+    start_marker = marker_start_for(key)
+    end_marker = marker_end_for(key)
     pattern = re.compile(
         rf"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
         re.DOTALL,
     )
     if not pattern.search(readme):
-        raise ValueError(f"Missing markers for {key}")
-    return pattern.sub(section, readme, count=1)
+        raise ValueError(
+            f"Missing markers for {key!r}: expected to find "
+            f"{start_marker!r} ... {end_marker!r} in README.md"
+        )
+    return pattern.sub(lambda _match: section, readme, count=1)
 
 
 def main() -> None:

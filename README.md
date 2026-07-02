@@ -1,16 +1,3 @@
-
-<summary>LeetCode SQL Practice (2)</summary>
-
-| # | Problem | Link |
-|---|---------|------|
-| 1 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
-| 2 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
-
-<summary>LeetCode SQL Practice (1)</summary>
-
-| # | Problem | Link |
-|---|---------|------|
-| 1 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
 # 📊 LeetCode SQL 50: Advanced Relational Analytics & Engine Optimization
 [![LeetCode SQL 50](https://img.shields.io/badge/Study%20Plan-SQL%2050-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/study-plan/v2/top-sql-50)
 [![Automation](https://img.shields.io/badge/README-Automated-007ACC?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
@@ -20,7 +7,7 @@
 
 ## 🧑‍💻 Engineer Profile & Core Objectives
 
-Welcome to my primary database engineering archive. This specialized repository serves as a dedicated, programmatic log of my rigorous training journey through the standard LeetCode SQL 50 curriculum. 
+Welcome to my primary database engineering archive. This specialized repository serves as a dedicated, programmatic log of my rigorous training journey through the standard LeetCode SQL 50 curriculum.
 
 As a data professional focused on building highly optimized, scalable, and resilient data architectures, my goal extends beyond simply passing automated test suites. I am utilizing this repository to actively refine my mastery over complex relational database management systems (RDBMS), structural query formatting, and declarative data processing.
 
@@ -61,6 +48,7 @@ When a new database resolution asset is committed to the local workspace and pus
 
 The execution table documented below is systematically kept fresh by the automated pipeline. As progress is achieved across the core study categories, this module directly renders the link maps and structural problem indices in absolute chronological order.
 
+<!-- leetcode_sql:START -->
 <details open>
 <summary>LeetCode SQL Practice (0)</summary>
 
@@ -68,6 +56,7 @@ The execution table documented below is systematically kept fresh by the automat
 |---|---------|------|
 | - | No solution files found | - |
 </details>
+<!-- leetcode_sql:END -->
 
 ---
 
@@ -92,5 +81,5 @@ python generate_table.py
 ```
 
 ### 🛑 Integrity Pre-Flight Checklist
-1. Do not manipulate or delete the hidden HTML tracking comments (`` and ``), as they act as the physical anchor points for the text injection algorithm.
+1. Do not manipulate or delete the hidden HTML tracking comments (`<!-- leetcode_sql:START -->` and `<!-- leetcode_sql:END -->`), as they act as the physical anchor points for the text injection algorithm.
 2. Ensure that all raw code resources are localized to the `/solutions/` root directory to prevent directory scanning timeouts.
