@@ -1,4 +1,11 @@
 
+<summary>LeetCode SQL Practice (2)</summary>
+
+| # | Problem | Link |
+|---|---------|------|
+| 1 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
+| 2 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+
 <summary>LeetCode SQL Practice (1)</summary>
 
 | # | Problem | Link |
