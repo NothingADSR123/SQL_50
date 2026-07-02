@@ -1,89 +1,74 @@
-# 📊 LeetCode SQL 50: Advanced Relational Analytics & Engine Optimization
+# 📊 LeetCode SQL 50
+
 [![LeetCode SQL 50](https://img.shields.io/badge/Study%20Plan-SQL%2050-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/study-plan/v2/top-sql-50)
 [![Automation](https://img.shields.io/badge/README-Automated-007ACC?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![Language](https://img.shields.io/badge/Language-ANSI%20SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
 
 ---
 
-## 🧑‍💻 Engineer Profile & Core Objectives
+## 📈 The scoreboard
 
-Welcome to my primary database engineering archive. This specialized repository serves as a dedicated, programmatic log of my rigorous training journey through the standard LeetCode SQL 50 curriculum.
-
-As a data professional focused on building highly optimized, scalable, and resilient data architectures, my goal extends beyond simply passing automated test suites. I am utilizing this repository to actively refine my mastery over complex relational database management systems (RDBMS), structural query formatting, and declarative data processing.
-
-### 🎯 Core Engineering Targets
-* **Query Execution Performance:** Writing high-throughput queries designed to minimize data platform computational costs by avoiding expensive nested loops and redundant tables.
-* **Advanced Relational Mechanics:** Deepening structural proficiency across core analytical paradigms, including complex conditional joins, multi-tier non-equijoins, mathematical data aggregations, and dense window function isolating.
-* **Production-Grade Cleanliness:** Standardizing database script design patterns using strict, readable formatting conventions, defensive indexing design principles, and comprehensive schema consideration.
-
----
-
-## 🏗️ Architectural Framework & CI/CD Automation Engine
-
-This repository relies on an entirely decoupled, asynchronous DevOps continuous integration pipeline. Rather than manually updating documentation or editing asset tables, a tailored file-system compilation script handles repository indexing automatically.
-
-### 📂 Directory Mapping Anatomy
-```
-📂 repository-root
-├── 📂 .github/workflows/    # Automated CI/CD execution manifests
-│   └── update_readme.yml   # Triggers python parser on every valid push
-├── 📂 solutions/            # Pure production-grade .sql solution assets
-│   └── 1757.RecyclableandLowFatProducts.sql
-├── 📄 generate_table.py     # Regex Abstract Syntax Tree parser & Markdown compiler
-└── 📄 README.md             # Dynamically managed interface landing page
-```
-
-### ⚙️ Automation Lifecycle Workflow
-When a new database resolution asset is committed to the local workspace and pushed upstream to the repository, the integrated automation layer executes the following lifecycle phases:
-
-1. **Event Interception:** The GitHub Actions runner intercepts the git push payload, checking for newly introduced or modified files specifically within the `/solutions/` path.
-2. **Environment Bootstrapping:** A virtual worker environment instantiates an isolated Python environment to run the underlying parsing engine.
-3. **Regex Token Extraction:** The `generate_table.py` script opens an input stream across the folder directory, leveraging strict regular expressions (`NUMBERED_FILE_RE`) to isolate the structural index and clean name tokens directly out of filenames.
-4. **Markdown Transformation:** The script reads the baseline `README.md`, calculates the updated metadata, constructs an optimized GitHub-Flavored Markdown (GFM) data table, and safely swaps it inside the designated string buffer markers.
-5. **Automated Synchronization:** The runtime worker configs a bot environment, tracks the diff footprint, commits the structural layout updates, and updates the repository automatically.
-
----
-
-## 📈 Dynamic Solution Tracking Matrix
-
-The execution table documented below is systematically kept fresh by the automated pipeline. As progress is achieved across the core study categories, this module directly renders the link maps and structural problem indices in absolute chronological order.
+This table is auto-generated — don't edit it by hand, it'll just get overwritten anyway 🙂
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (5)</summary>
+<summary>LeetCode SQL Practice (0)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
-| 1 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
-| 2 | BigCountries | [Code](solutions/595.BigCountries.sql) |
-| 3 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
-| 4 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 5 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| - | No solution files found | - |
 </details>
 <!-- leetcode_sql:END -->
 
 ---
 
-## 🛠️ Execution & Local System Deployment Guidelines
+## 👋 What's this?
 
-To preserve system compatibility, extend local performance capabilities, or deploy similar automated evaluation environments within fork variations, ensure your workspace explicitly respects these standard operating constraints:
+This is my little SQL gym. I'm working through LeetCode's **Top SQL 50** study plan, one query at a time, and dumping every solution here so I can watch the progress add up.
 
-### 📋 Strict Filename Pattern Schema
-The backend Python engine evaluates files against exact regex boundaries to avoid indexing unverified files. Ensure new code files use this naming pattern:
-```pattern
-[Problem_Number].[ProblemNameWithoutSpaces].sql
+I'm not just trying to get a green checkmark — I actually enjoy the puzzle of it. How do you write a query that's not just *correct*, but clean, fast, and doesn't make the database cry? That's the fun part for me: joins, window functions, aggregations, all of it.
+
+---
+
+## ⚙️ How it stays up to date (without me lifting a finger)
+
+I got a little lazy about manually updating a table every time I add a solution, so I automated it:
+
+1. I drop a new `.sql` file into `/solutions/`.
+2. I push it to GitHub.
+3. A GitHub Action wakes up, runs `generate_table.py`, and it scans the folder, figures out the problem number and name from the filename, and rebuilds the table below.
+4. It commits the updated README right back to the repo. No copy-pasting, no forgetting to update a count.
+
 ```
-* **Valid Struct Matching:** `1757.RecyclableandLowFatProducts.sql`
-* **Invalid Struct Matching:** `1757_recyclable_products.sql` (improper token separator)
-* **Invalid Struct Matching:** `1757.sql` (missing descriptive string group component)
+📂 repository-root
+├── 📂 .github/workflows/    # the robot that runs the script on every push
+├── 📂 solutions/            # all my actual .sql answers live here
+├── 📄 generate_table.py     # reads the folder, writes the table below
+└── 📄 README.md             # you are here
+```
 
-### 💻 Running the Compiler Engine Locally
-To validate compilation output locally before pushing changes to your production branch, run the compilation script from the terminal inside the repository's root directory:
+---
+
+## 🛠️ Want to run this yourself?
+
+If you're forking this to track your own SQL grind, here's the one rule that matters: **name your files like this** —
+
+```
+[ProblemNumber].[ProblemNameNoSpaces].sql
+```
+
+✅ `1757.RecyclableandLowFatProducts.sql`
+❌ `1757_recyclable_products.sql` (wrong separator)
+❌ `1757.sql` (needs a name too)
+
+Then just run:
 
 ```bash
 python generate_table.py
 ```
 
-### 🛑 Integrity Pre-Flight Checklist
-1. Do not manipulate or delete the hidden HTML tracking comments (`<!-- leetcode_sql:START -->` and `<!-- leetcode_sql:END -->`), as they act as the physical anchor points for the text injection algorithm.
-2. Ensure that all raw code resources are localized to the `/solutions/` root directory to prevent directory scanning timeouts.
+and check the README updated itself.
+
+**Two things not to touch:** the `<!-- leetcode_sql:START -->` / `<!-- leetcode_sql:END -->` comments — those are how the script knows where to inject the table. And keep all your `.sql` files directly inside `/solutions/`, not in subfolders.
+
+That's it — happy querying! 🐘
