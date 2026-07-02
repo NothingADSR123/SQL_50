@@ -50,11 +50,15 @@ The execution table documented below is systematically kept fresh by the automat
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (0)</summary>
+<summary>LeetCode SQL Practice (5)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
-| - | No solution files found | - |
+| 1 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
+| 2 | BigCountries | [Code](solutions/595.BigCountries.sql) |
+| 3 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
+| 4 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 5 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
