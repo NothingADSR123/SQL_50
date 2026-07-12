@@ -12,20 +12,22 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (10)</summary>
+<summary>LeetCode SQL Practice (12)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
 | 1 | AverageTimeofProcessperMachine | [Code](solutions/166.AverageTimeofProcessperMachine.sql) |
 | 2 | RisingTemperature | [Code](solutions/197.RisingTemperature.sql) |
-| 3 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
-| 4 | BigCountries | [Code](solutions/595.BigCountries.sql) |
-| 5 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
-| 6 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
-| 7 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
-| 8 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
-| 9 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 10 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 3 | ManagerswithatLeast5DirectReports | [Code](solutions/570.ManagerswithatLeast5DirectReports.sql) |
+| 4 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
+| 5 | BigCountries | [Code](solutions/595.BigCountries.sql) |
+| 6 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
+| 7 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
+| 8 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
+| 9 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
+| 10 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 11 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 12 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
