@@ -12,7 +12,7 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (14)</summary>
+<summary>LeetCode SQL Practice (15)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
@@ -23,13 +23,14 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 | 5 | BigCountries | [Code](solutions/595.BigCountries.sql) |
 | 6 | NotBoringMovies | [Code](solutions/620.NotBoringMovies.sql) |
 | 7 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
-| 8 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
-| 9 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
-| 10 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
-| 11 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
-| 12 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 13 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
-| 14 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
+| 8 | ProjectEmployeesI | [Code](solutions/1075.ProjectEmployeesI.sql) |
+| 9 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
+| 10 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
+| 11 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
+| 12 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
+| 13 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 14 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 15 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
