@@ -12,7 +12,7 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (15)</summary>
+<summary>LeetCode SQL Practice (16)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
@@ -28,9 +28,10 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 | 10 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
 | 11 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
 | 12 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
-| 13 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 14 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
-| 15 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
+| 13 | PercentageofUsersAttendedaContest | [Code](solutions/1633.PercentageofUsersAttendedaContest.sql) |
+| 14 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 15 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 16 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
