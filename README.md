@@ -12,7 +12,7 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (17)</summary>
+<summary>LeetCode SQL Practice (18)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
@@ -25,14 +25,15 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 | 7 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
 | 8 | ProjectEmployeesI | [Code](solutions/1075.ProjectEmployeesI.sql) |
 | 9 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
-| 10 | QueriesQualityandPercentage | [Code](solutions/1211.QueriesQualityandPercentage.sql) |
-| 11 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
-| 12 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
-| 13 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
-| 14 | PercentageofUsersAttendedaContest | [Code](solutions/1633.PercentageofUsersAttendedaContest.sql) |
-| 15 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 16 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
-| 17 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
+| 10 | MonthlyTransactionsI | [Code](solutions/1193.MonthlyTransactionsI.sql) |
+| 11 | QueriesQualityandPercentage | [Code](solutions/1211.QueriesQualityandPercentage.sql) |
+| 12 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
+| 13 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
+| 14 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
+| 15 | PercentageofUsersAttendedaContest | [Code](solutions/1633.PercentageofUsersAttendedaContest.sql) |
+| 16 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 17 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 18 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
