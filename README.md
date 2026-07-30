@@ -12,29 +12,30 @@ This table is auto-generated — don't edit it by hand, it'll just get overwritt
 
 <!-- leetcode_sql:START -->
 <details open>
-<summary>LeetCode SQL Practice (19)</summary>
+<summary>LeetCode SQL Practice (20)</summary>
 
 | # | Problem | Link |
 |---|---------|------|
 | 1 | AverageTimeofProcessperMachine | [Code](solutions/166.AverageTimeofProcessperMachine.sql) |
 | 2 | RisingTemperature | [Code](solutions/197.RisingTemperature.sql) |
-| 3 | ManagerswithatLeast5DirectReports | [Code](solutions/570.ManagerswithatLeast5DirectReports.sql) |
-| 4 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
-| 5 | BigCountries | [Code](solutions/595.BigCountries.sql) |
-| 6 | NotBoringMovies | [Code](solutions/620.NotBoringMovies.sql) |
-| 7 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
-| 8 | ProjectEmployeesI | [Code](solutions/1075.ProjectEmployeesI.sql) |
-| 9 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
-| 10 | ImmediateFoodDeliveryII | [Code](solutions/1174.ImmediateFoodDeliveryII.sql) |
-| 11 | MonthlyTransactionsI | [Code](solutions/1193.MonthlyTransactionsI.sql) |
-| 12 | QueriesQualityandPercentage | [Code](solutions/1211.QueriesQualityandPercentage.sql) |
-| 13 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
-| 14 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
-| 15 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
-| 16 | PercentageofUsersAttendedaContest | [Code](solutions/1633.PercentageofUsersAttendedaContest.sql) |
-| 17 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
-| 18 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
-| 19 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
+| 3 | GamePlayAnalysisIV | [Code](solutions/550.GamePlayAnalysisIV.sql) |
+| 4 | ManagerswithatLeast5DirectReports | [Code](solutions/570.ManagerswithatLeast5DirectReports.sql) |
+| 5 | FindCustomerReferee | [Code](solutions/584.FindCustomerReferee.sql) |
+| 6 | BigCountries | [Code](solutions/595.BigCountries.sql) |
+| 7 | NotBoringMovies | [Code](solutions/620.NotBoringMovies.sql) |
+| 8 | ProductSalesAnalysisI | [Code](solutions/1068.ProductSalesAnalysisI.sql) |
+| 9 | ProjectEmployeesI | [Code](solutions/1075.ProjectEmployeesI.sql) |
+| 10 | ArticleViewsI | [Code](solutions/1148.ArticleViewsI.sql) |
+| 11 | ImmediateFoodDeliveryII | [Code](solutions/1174.ImmediateFoodDeliveryII.sql) |
+| 12 | MonthlyTransactionsI | [Code](solutions/1193.MonthlyTransactionsI.sql) |
+| 13 | QueriesQualityandPercentage | [Code](solutions/1211.QueriesQualityandPercentage.sql) |
+| 14 | AverageSellingPrice | [Code](solutions/1251.AverageSellingPrice.sql) |
+| 15 | ReplaceEmployeeIDWithTheUniqueIdentifier | [Code](solutions/1378.ReplaceEmployeeIDWithTheUniqueIdentifier.sql) |
+| 16 | CustomerWhoVisitedbutDidNotMakeAnyTransactions | [Code](solutions/1581.CustomerWhoVisitedbutDidNotMakeAnyTransactions.sql) |
+| 17 | PercentageofUsersAttendedaContest | [Code](solutions/1633.PercentageofUsersAttendedaContest.sql) |
+| 18 | InvalidTweets | [Code](solutions/1683.InvalidTweets.sql) |
+| 19 | RecyclableandLowFatProducts | [Code](solutions/1757.RecyclableandLowFatProducts.sql) |
+| 20 | ConfirmationRate | [Code](solutions/1934.ConfirmationRate.sql) |
 </details>
 <!-- leetcode_sql:END -->
 
